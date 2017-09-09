@@ -2,7 +2,7 @@
 Android application for communicate with HC-06
 
 Operation was confirmed on the following devices:</br>
-Samsung Galaxy 3 (API 18) </br>
+Samsung Galaxy S3 (API 18) </br>
 LG G5 (API 23) </br>
 
 </br> ![capture 1](/Capture/1.png)
