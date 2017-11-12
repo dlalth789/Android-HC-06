@@ -9,11 +9,13 @@ void setup(){
 
 void loop(){  
   if(Serial.available()){
+    char c = '\0';
+    
     while(Serial.available()){
       BTSerial.write(Serial.read());
       delay(5);
-    }
-    BTSerial.write('\0');
+    }    
+    BTSerial.write(c);
   }
   if(BTSerial.available()){
     Serial.write(BTSerial.read());
